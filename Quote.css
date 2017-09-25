@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+html body{
+    margin: 0;
+    padding: 0;
+    background: url("http://res.cloudinary.com/dinwmdlb9/image/upload/v1503945664/showcase_m9ntzs.jpg") no-repeat center center fixed;
+  height:100vh;
+}
+.text-primary{
+    font-size: 50px;
+    padding: 10px;
+  font-family: Julee;
+  margin-top: 50px;
+  font-weight: 600;
+  
+}
+.message{
+  margin-top: 50px;
+}
+@media (max-width: 600px){
+  .text-primary{
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .message{
+  margin-top: 60px;
+}
+  h2 #window{
+    font-size: 25px;
+    font-weight: 400;
+  }
+}
